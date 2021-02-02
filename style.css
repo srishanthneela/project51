@@ -1,0 +1,94 @@
+ *{
+     padding: 0;
+     margin: 0;
+ }
+ 
+ h1 {
+     text-align: center;
+      color:black;
+}
+h2{
+    color:white;
+    text-align: center;
+}
+.header{
+    height: 60px;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.header h1{
+    font-weight: lighter;
+    position: absolute;
+    top: 10px;
+    left: 42%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.about{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.info img{
+    width: 100%;
+    height: 300px;
+}
+
+.info h1{
+    position: absolute;
+    top: 130px;
+    left: 37%;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+}
+
+.info  h3{
+    position: absolute;
+    top: 200px;
+    color: white;
+    font-weight: lighter;
+    font-family: cursive;
+    text-align: center;
+    left: 150px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    border:2px solid gray;
+    background: rgb(248, 233, 204);
+}
+
+.origami{
+    background-color:rgba(255, 255, 255, 0.74);
+    width:300px;
+    font-family:cursive;
+    padding: 30px;
+    margin: 0px;
+    margin: 35px;
+}
+
+.origami:nth-child(1){
+    margin-left: 100px;
+}
+
+.origami:nth-child(5){
+    margin-left: 100px;
+}
+
+.origami img{
+    border: 2px black solid;
+    border-radius: 75px;
+    margin-left: 40px;
+}
+
+.origami p{
+    margin-left: 100px;
+}
